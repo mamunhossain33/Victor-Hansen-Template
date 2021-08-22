@@ -1,0 +1,650 @@
+/* Playfair Display font link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+/* Libre Caslon Text font link */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+/* Poppins', sans-serif font link */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+
+/* font-family: 'Libre Caslon Text', serif; 
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+
+.btn{
+    padding: 15px 40px;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 14px;
+    border: none;
+    transition: all .4s ease-in-out;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn:hover{
+    color:#b9b8b8;
+
+}
+/* global end here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+::selection{
+    background-color: #A9CB2B;
+    color: white;
+}
+/* header part start here */
+header {
+    margin-top: 50px;
+}
+
+header .logo{
+    max-width: 180px;     
+    height: 41px;      
+    margin: auto;
+}
+header .logo img{width: 100%;}
+header nav{
+
+}
+header nav ul{
+
+    width: 454px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 60px;
+}
+header nav ul li{
+}
+header nav ul li a{
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 0px 15px;
+}
+/* header part end here */
+/* The road section start here */
+.book-conatiner{
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.book-conatiner .content{
+    width: 45%;
+}
+.book-conatiner .content h2{
+        
+    color: #000000;       
+    font-family: 'Playfair Display', serif;       
+    font-size: 55px;       
+    font-weight: 400;       
+    line-height: 60px;
+}
+.book-conatiner .content h5{
+    
+    font-size: 25px;       
+    font-weight: 400;       
+    font-family: 'Playfair Display', serif;        
+    color: #000000;      
+    line-height: 36px;      
+    margin: 24px 14px 59px  0px;     
+    position: relative;
+}
+.book-conatiner .content h5::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #757575;
+    left: 0;
+    top: 172px;
+}
+.book-conatiner .content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #757575;
+    line-height: 29px;
+    margin: 0px 0px 7.5px;
+}
+.book-conatiner .book_img{
+
+    width: 50%;
+}
+.book-conatiner .book_img img{
+    width: 100%;
+}
+/* The road section end here */
+/* buy the book section start here */
+.book_section{
+    
+width: 100%;
+    
+background: #fafafa;
+}
+.buy_book{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+.sec-heading{width: 60.99%;margin: auto;text-align: center;}
+.sec-heading h2{
+    
+font-size: 40px;
+    
+font-weight: 400;
+    
+font-family: 'Playfair Display', serif;
+    
+margin-bottom: 12px;
+}
+.sec-heading p{
+    
+font-family: 'Poppins', sans-serif;
+    
+font-size: 15px;
+    
+margin: 0px 0px 7.5px;
+    
+position: relative;
+    
+color: #757575;
+}
+.sec-head-p{
+    
+padding: 0px 80px;
+}
+.sec-heading p::after{
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    background-color: #757575;
+    left: 50%;
+    bottom: -38px;
+    transform: translate(-50%,-50%);
+}
+.all_button{
+
+    width: 100%;
+    margin-top: 90px;
+}
+.all_button .four_button{display: flex;justify-content: space-between;align-items: center;width: 100%;}
+.all_button .three_button{
+    
+    width: 65%;     
+    display: flex;    
+    justify-content: space-between;      
+    align-items: center;      
+    margin: auto;    
+    margin-top: 20px;
+}
+.authore_section{
+    
+    width: 100%;
+    
+background: #F7F7F7;
+}
+.authore_section .authore-container{
+        
+    border-top: 1px solid #b9b9b9;       
+    padding: 100px 0px;
+}
+.book-conatiner .authore{
+
+    width: 45%;
+}
+.book-conatiner .authore img{
+
+    width: 100%;
+}
+.book-conatiner .authore_c{
+    
+    width: 49%;
+}
+.book-conatiner .authore_c{
+    
+    width: 49%;
+}
+.book-conatiner .authore_c h2{
+    position: relative;
+}
+.book-conatiner .authore_c h4{
+   font-family: 'Playfair Display';
+   position: relative;
+   font-size: 25px;
+   font-weight: 400;
+   padding: 13px 0px 50px;
+}
+.book-conatiner .authore_c h4::after{
+   content: '';
+   position: absolute;
+   width: 50px;
+   height: 1px;
+   background: #8c8989;
+   bottom: 25px;
+   left: 0;
+}
+.book-conatiner .authore_c h2::after{
+    top: 30px;
+    left: 0;
+   
+}
+.book-conatiner .authore_c h5{
+    
+}
+.book-conatiner .authore_c p{
+    
+}
+.book-conatiner .authore_c .btn_blnk{
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    letter-spacing: 2px;
+    font-family: 'Libre Caslon Text';
+    margin-top: 24px;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.book-conatiner .authore_c .btn_blnk:hover{
+    color: rgb(153, 152, 152);
+    text-transform: capitalize;
+}
+/* buy the book section end here */
+/* blank section start here  */
+.blank{
+
+    width: 800px;
+    margin: auto;
+    height: 200px;
+}
+.blank .blank_2{
+    
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid black;
+    margin-top: -100px;
+}
+
+/* blank section end here */
+/* quite section start here */
+
+.quate-container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.quate-img{
+    background-image: url('../images/quite\ image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.quate-container span{
+}
+.quate-container h2{
+    
+    font-family: 'Playfair Display';   
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 300;
+}
+.quate-container h4{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    margin: 17px 0px;
+}
+.quate-container .stare{
+
+}
+.quate-container .stare i{
+
+    color: orange;
+    font-size: 15px;
+}
+.book_image{
+    background-image: url('../images/body\ back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 90%;
+    margin: auto;
+    height: 526px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.book_image ::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #665d5d4f;
+}
+.book_image span{
+    width: 100%;
+    height: 526px;
+    background-color: balck;
+}
+.book_image .main-image{
+    width: 95%;
+    margin: auto;
+}
+.book_image img{    
+    width: 100%;
+}
+/* quite section end here */
+/* pricing box section start here */
+.pricing_section{
+    /* display: inline-block; */
+}
+.pricin_container{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+border-bottom: 1px solid black;
+
+margin-bottom: 100px;
+}
+.pricin_container .box{
+    width: 20%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.pricin_container .box::after{
+    content: '';
+    position: absolute;
+    width: 46px;
+    height: 1px;
+    background: #757575;
+    top: -27px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.pricin_container .box h3{
+        
+    font-family: 'Playfair Display';   
+    font-size: 25px;
+    font-weight: 400;
+}
+.pricin_container .box h5{color: #757575;font-family: 'Poppins';font-size: 15px;font-weight: 500;padding: 6px 0px;}
+.pricin_container .box .btn_blnk{
+    background: transparent;
+    color: black;
+}
+/* pricing box section start here */
+
+.book_section{
+
+background: #fafafa;
+
+padding: 100px 0px;
+
+margin-top: -119px;
+}
+.you_also{
+    background: #ffffff;
+    margin-top: -100px;
+}
+.book_section .book_container{
+    
+width: 90%;
+    
+margin: auto;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+    
+margin-top: 100px;
+}
+.book_section .book_container .book_box{
+    
+width: 33%;
+}
+
+.book_box img{
+    
+width: 100%;
+}
+.book_section .book_content{
+
+padding-left: 22px;
+}
+.book_section .book_content h2{
+
+font-family: 'Playfair Display';
+
+font-size: 30px;
+
+color: #000000;
+
+font-weight: 400;
+}
+.book_section .book_content h5{
+
+font-family: 'Playfair Display';
+
+font-size: 18px;
+
+color: #000000;
+
+padding: 10px 0px;
+position: relative;
+}
+.book_section .book_content h5::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #b8b8b8;
+    bottom: -14px;
+    left: 0;
+}
+.book_section .book_content p{
+
+font-family: 'Poppins';
+
+font-size: 15px;
+
+padding: 32px 0px 6px 0px;
+
+color: #757575;
+}
+.book_section .book_content .book-btn{
+
+background: transparent;
+
+border: none;
+
+padding: 15px 0px;
+
+text-transform: capitalize;
+
+font-family: 'Libre Caslon Text';
+
+font-weight: 700;
+
+letter-spacing: 2px;
+}
+/* footer section stare here */
+footer{
+    background:#1C1E24;
+}
+.f_container{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+/* align-items: center; */
+
+justify-content: space-between;
+
+padding: 100px 0px;
+}
+.f_container .f_box{
+    
+width: 30%;
+}
+.f_container .f_box h2{
+    
+font-family: 'Playfair Display';
+    
+font-size: 21px;
+    
+color: #FFFFFF;
+    
+margin: 0px 0px 21px;
+    
+padding-top: 15px;
+}
+.f_container .f_box p{
+    
+font-family: 'Poppins';
+    
+font-size: 15px;
+    
+margin: 0px 0px 21px;
+    
+color: #72858B;
+    
+line-height: 30px;
+}
+.f_container .f_box h4{
+    
+font-family: 'Poppins';
+    
+font-size: 15px;
+    
+border-bottom: 2px solid #CCCCCC;
+    
+color: #72858B;
+    
+font-weight: 300;
+    
+padding-bottom: 8px;
+    
+margin: 0px 0px 7.5px;
+}
+.f_container .f_box .tacoma{
+    
+border-bottom: none;
+}
+
+.f_container .f_box h6{
+    
+}
+.f_container .f_box input{
+    
+width: 100%;
+    
+padding: 13.15px 18px;
+    
+font-size: 17px;
+    
+background: #FFFFFF;
+    
+border: none;
+    
+border: 1px solid black;
+    
+border-radius: 3px;
+}
+.f_container .f_box .Subscribe{
+    
+margin-top: 23px;
+    
+border-radius: 2px;
+    
+font-size: 16px;
+    
+padding: 21px 34px;
+}
+.copy_section{
+
+background: black;
+
+padding: 25px 0px;
+
+width: 100%;
+}
+.copy_section .container{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+}
+.container .copywrite{
+    
+color: white;
+    
+width: 50%;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+}
+.container .copywrite h4{
+    
+color: #a5a5a5;
+    
+font-family: 'Poppins';
+    
+font-size: 15px;
+    
+font-weight: 500;
+}
+.copy_section nav{width: 26%;}
+.copy_section nav ul{width: 100%;display: flex;justify-content: space-between;align-items: center;text-transform: capitalize;}
+.copy_section nav ul li a{
+    color: #a5a5a5;
+    font-weight: 600;
+    transition: all .2s ease-in;
+}
+.copy_section nav ul li a:hover{
+    color:white;
+    
+}
+
+/* footer section end here */
+
+
+
+
